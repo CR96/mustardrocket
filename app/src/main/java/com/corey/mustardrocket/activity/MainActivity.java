@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Deserialize livery feed
         final RequestQueue queue = Volley.newRequestQueue(this);
-        String url = "http://104.131.89.66:81/api/liveries.json";
+        String url = "https://cr96.github.io/mustardrocket-pages/api/liveries.json";
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
                 Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
